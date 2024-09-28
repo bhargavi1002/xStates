@@ -113,11 +113,11 @@ const States = () =>{
           </select>
           </div>
           {selectedCity && (
-            <h2>You selected <span>{selectedCountry}</span>
-            <span>{" "}
-            {selectedState},{selectedCity}</span>
-            </h2>
-          )}
+  <h2>
+    You selected <span>{selectedCity}, {selectedState}, {selectedCountry}</span>
+  </h2>
+)}
+
 
 
         </div>
